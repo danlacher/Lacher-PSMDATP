@@ -83,6 +83,7 @@ FunctionsToExport = 'Add-MDATPDeviceTag',
 'Remove-MDATPDevice',
 'Remove-MDATPDeviceTag',
 'Remove-MDATPIndicator',
+'Set-MDATPAlert',
 'Start-MDATPAppRestriction',
 'Start-MDATPAVScan',
 'Start-MDATPInvestigation',
@@ -141,5 +142,3 @@ PrivateData = @{
 # DefaultCommandPrefix = ''
 
 }
-
-

@@ -94,7 +94,7 @@ get-command -Module PSMDATP | Select Name
 You will see something like this
 ```powershell
 Add-MDATPDeviceTag
-Add-MDATPIndicator{
+Add-MDATPIndicator
 Get-MDATPAlert
 Get-MDATPCollectionPackageUri
 Get-MDATPDevice
@@ -108,6 +108,7 @@ Get-MDATPTvmVulnerability
 Remove-MDATPDevice
 Remove-MDATPDeviceTag
 Remove-MDATPIndicator
+Set-MDATPAlert
 Start-MDATPAppRestriction
 Start-MDATPAVScan
 Start-MDATPInvestigation
@@ -155,6 +156,7 @@ If you have an idea or want to contribute to this project please submit a sugges
 | 0.0.2   | 03.05.2020 | Added Add-MDATPIndicator and Remove-MDATPIndictor cmdlets      |
 | 1.0.0   | 18.07.2020 | Added Get-MDATPTvmRecommendation and Get-MDATPTvmVulnerability |
 |         |            | cmdlets, updated the API uri for the Get-MDATPAlerts cmdlet    |
+| 1.0.1   | 11.02.2020 | Added Set-MDATPAlert cmdlet                                    |
 ---
 
 ## TODO
@@ -166,6 +168,7 @@ I have the following on my to-do list:
 - ~~Add cmdlets to manage custom indicators~~ added in version 0.0.2
 - Add more query templates for advanced hunting
 - Create more Module related Pester tests
+- Resolve verbose messages when verbosity flag not set
 
 ---
 
